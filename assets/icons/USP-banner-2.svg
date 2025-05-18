@@ -1,0 +1,15 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Dynamic arrows indicating update/refresh -->
+    <path d="M32 8C18.745 8 8 18.745 8 32C8 45.255 18.745 56 32 56" stroke="#007bff" stroke-width="2"/>
+    <path d="M32 56C45.255 56 56 45.255 56 32C56 18.745 45.255 8 32 8" stroke="#007bff" stroke-width="2"/>
+    
+    <!-- Arrow heads -->
+    <path d="M32 4L36 8L32 12" stroke="#007bff" stroke-width="2"/>
+    <path d="M32 52L28 56L32 60" stroke="#007bff" stroke-width="2"/>
+    
+    <!-- QR code in center -->
+    <rect x="24" y="24" width="16" height="16" fill="#007bff"/>
+    <rect x="26" y="26" width="4" height="4" fill="white"/>
+    <rect x="34" y="26" width="4" height="4" fill="white"/>
+    <rect x="26" y="34" width="4" height="4" fill="white"/>
+</svg>
