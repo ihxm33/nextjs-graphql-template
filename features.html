@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - QRFusion.AI</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/features.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <a href="/">
+                        <img src="assets/images/QRFusion-Logo-Light.svg" alt="QRFusion.AI Logo">
+                    </a>
+                </div>
+                <!-- Primary Navigation -->
+                <ul class="nav-links">
+                    <li><a href="features.html" class="nav-link active">Features</a></li>
+                    <li><a href="use-cases.html" class="nav-link">Use Cases</a></li>
+                    <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                    <li><a href="resources.html" class="nav-link">Resources</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <!-- Secondary Navigation -->
+                <div class="secondary-nav">
+                    <a href="login.html" class="login-btn">Login</a>
+                    <a href="signup.html" class="signup-btn">Get Started</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Powerful QR Code Features</h1>
+            <p class="subtitle">Everything you need to create, manage, and track dynamic QR codes</p>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="features-grid">
+        <div class="container">
+            <!-- Dynamic QR Codes -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <rect width="40" height="40" rx="8" fill="rgba(41, 121, 255, 0.1)"/>
+                        <path d="M12 12h6v6h-6zM22 12h6v6h-6zM12 22h6v6h-6z" fill="#2979FF"/>
+                    </svg>
+                </div>
+                <h3>Dynamic QR Codes</h3>
+                <p>Create editable QR codes that can be updated anytime without reprinting</p>
+            </div>
+
+            <!-- Analytics & Tracking -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <rect width="40" height="40" rx="8" fill="rgba(41, 121, 255, 0.1)"/>
+                        <path d="M10 30v-8h6v8h-6zm7-12v-8h6v20h-6V18zm7 4v-8h6v16h-6V22z" fill="#2979FF"/>
+                    </svg>
+                </div>
+                <h3>Analytics & Tracking</h3>
+                <p>Track scans, locations, devices, and engagement metrics in real-time</p>
+            </div>
+
+            <!-- Custom Design -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <rect width="40" height="40" rx="8" fill="rgba(41, 121, 255, 0.1)"/>
+                        <path d="M20 10c5.523 0 10 4.477 10 10s-4.477 10-10 10-10-4.477-10-10 4.477-10 10-10zm0 4a6 6 0 100 12 6 6 0 000-12z" fill="#2979FF"/>
+                    </svg>
+                </div>
+                <h3>Custom Design</h3>
+                <p>Customize patterns, colors, frames, and add your logo to match your brand</p>
+            </div>
+
+            <!-- Bulk Generation -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <rect width="40" height="40" rx="8" fill="rgba(41, 121, 255, 0.1)"/>
+                        <path d="M12 12h4v4h-4zM18 12h4v4h-4zM24 12h4v4h-4zM12 18h4v4h-4zM18 18h4v4h-4zM24 18h4v4h-4zM12 24h4v4h-4zM18 24h4v4h-4zM24 24h4v4h-4z" fill="#2979FF"/>
+                    </svg>
+                </div>
+                <h3>Bulk Generation</h3>
+                <p>Generate and customize multiple QR codes at once with CSV import</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- API Section -->
+    <section class="api-section">
+        <div class="container">
+            <div class="api-content">
+                <h2>Powerful API Integration</h2>
+                <p>Integrate QR code generation directly into your applications with our REST API</p>
+                <pre><code>
+curl -X POST https://api.qrfusion.ai/v1/qr-codes \
+-H "Authorization: Bearer YOUR_API_KEY" \
+-d '{
+    "url": "https://example.com",
+    "design": {
+        "pattern": "dots",
+        "darkColor": "#0B1120"
+    }
+}'
+                </code></pre>
+                <a href="/api" class="cta-secondary">View API Documentation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Product -->
+                <div class="footer-column">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="roadmap.html">Roadmap</a></li>
+                        <li><a href="releases.html">Release Notes</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="docs.html">Documentation</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li><a href="api.html">API Reference</a></li>
+                        <li><a href="status.html">Status Page</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company -->
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="press.html">Press</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="gdpr.html">GDPR Compliance</a></li>
+                        <li><a href="security.html">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <img src="assets/images/QRFusion-Logo-Light.svg" alt="QRFusion.AI" height="24">
+                </div>
+                <p class="copyright">&copy; 2024 QRFusion.AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
