@@ -1,0 +1,18 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="120" cy="120" r="120" fill="rgba(41, 121, 255, 0.1)"/>
+    
+    <!-- Restaurant Icons -->
+    <g transform="translate(60, 60)">
+        <!-- Plate -->
+        <circle cx="60" cy="60" r="50" stroke="#2979FF" stroke-width="6" fill="none"/>
+        <circle cx="60" cy="60" r="40" stroke="#2979FF" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+        
+        <!-- Fork -->
+        <path d="M40 30v60M30 30v20M50 30v20" stroke="#2979FF" stroke-width="4" stroke-linecap="round"/>
+        
+        <!-- Knife -->
+        <path d="M80 30c0 0 10 10 10 30v30" stroke="#2979FF" stroke-width="4" stroke-linecap="round"/>
+        <path d="M70 30c0 0 10 5 10 15" stroke="#2979FF" stroke-width="4" stroke-linecap="round"/>
+    </g>
+</svg>
