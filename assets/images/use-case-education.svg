@@ -1,0 +1,21 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="120" cy="120" r="120" fill="rgba(41, 121, 255, 0.1)"/>
+    
+    <!-- Education Icons -->
+    <g transform="translate(60, 60)">
+        <!-- Graduation Cap -->
+        <path d="M60 40l40 20-40 20-40-20z" fill="#2979FF"/>
+        <path d="M40 60v30" stroke="#2979FF" stroke-width="4" stroke-linecap="round"/>
+        <path d="M40 90c0 0 20 10 40 0" stroke="#2979FF" stroke-width="4" stroke-linecap="round"/>
+        
+        <!-- Book -->
+        <path d="M30 70h60v40H30z" fill="#2979FF" opacity="0.6"/>
+        <path d="M30 70c0-5 5-10 10-10h40c5 0 10 5 10 10" stroke="#2979FF" stroke-width="2"/>
+        
+        <!-- Lines -->
+        <path d="M40 80h40M40 90h40M40 100h40" 
+              stroke="#fff" stroke-width="2" 
+              stroke-linecap="round" opacity="0.4"/>
+    </g>
+</svg>
