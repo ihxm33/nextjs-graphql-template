@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator - Create Free QR Codes With QR Code Fusion</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/generator.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/components.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/QRFusion-Logo-Light.svg" alt="QRFusion.AI Logo">
+                    </a>
+                </div>
+                <!-- Primary Navigation -->
+                <ul class="nav-links">
+                    <li><a href="features.html" class="nav-link">Features</a></li>
+                    <li><a href="use-cases.html" class="nav-link">Use Cases</a></li>
+                    <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                    <li><a href="resources.html" class="nav-link">Resources</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <!-- Secondary Navigation -->
+                <div class="secondary-nav">
+                    <a href="login.html" class="login-btn">Login</a>
+                    <a href="signup.html" class="signup-btn">Get Started</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Create Dynamic QR Codes for Your Business</h1>
+            <p class="subtitle">Generate, customize, and track QR codes that drive engagement and deliver measurable results</p>
+            <div class="hero-cta">
+                <a href="signup.html" class="cta-primary">Start Creating QR Codes</a>
+                <a href="features.html" class="cta-secondary">Explore Features</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- QR Generator Section -->
+    <section class="qr-generator">
+        <div class="container">
+            <div class="generator-grid">
+                <!-- Left Column - QR Options -->
+                <div class="options-column">
+                    <div class="tabs">
+                        <button class="tab-btn active" data-tab="details">Content</button>
+                        <button class="tab-btn" data-tab="design">Customize</button>
+                    </div>
+
+                    <!-- QR Details Tab -->
+                    <div class="tab-content active" id="details">
+                        <div class="input-group">
+                            <label for="url">Enter your URL *</label>
+                            <input type="text" id="url" placeholder="https://example.com">
+                        </div>
+                        <div class="input-group">
+                            <label for="title">Title (optional)</label>
+                            <input type="text" id="title" placeholder="Name your QR code">
+                        </div>
+                    </div>
+
+                    <!-- QR Design Tab -->
+                    <div class="tab-content" id="design">
+                        <div class="design-options">
+                            <div class="option-group">
+                                <h3>Pattern Style</h3>
+                                <div class="pattern-grid">
+                                    <!-- Pattern options will be inserted by JavaScript -->
+                                </div>
+                            </div>
+
+                            <div class="option-group">
+                                <h3>Colors</h3>
+                                <div class="color-options">
+                                    <div class="color-picker">
+                                        <label>Pattern Color</label>
+                                        <input type="color" id="darkColor" value="#0B1120">
+                                    </div>
+                                    <div class="color-picker">
+                                        <label>Background</label>
+                                        <input type="color" id="bgColor" value="#FFFFFF">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="option-group">
+                                <h3>Eye Style</h3>
+                                <div class="eye-grid">
+                                    <!-- Eye style options will be inserted by JavaScript -->
+                                </div>
+                                <div class="color-options">
+                                    <div class="color-picker">
+                                        <label>Eye Frame</label>
+                                        <input type="color" id="outerEyeColor" value="#0B1120">
+                                    </div>
+                                    <div class="color-picker">
+                                        <label>Eye Center</label>
+                                        <input type="color" id="innerEyeColor" value="#0B1120">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="option-group">
+                                <h3>Frame Style</h3>
+                                <div class="frame-grid">
+                                    <!-- Frame options will be inserted by JavaScript -->
+                                </div>
+                            </div>
+
+                            <div class="icon-upload">
+                                <h3>Logo Upload</h3>
+                                <input type="file" id="iconUpload" accept=".png,.jpg,.gif,.svg,.webp,.bmp">
+                                <p class="file-info">Recommended: Square image, max 2MB (.png, .jpg, .svg)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column - Preview -->
+                <div class="preview-column">
+                    <div class="preview-container">
+                        <h2>Preview</h2>
+                        <div class="qr-preview">
+                            <img src="assets/images/placeholder.svg" alt="QR Code Preview" id="qrPreview">
+                        </div>
+                        <div class="download-options">
+                            <button class="download-btn" data-format="png">PNG</button>
+                            <button class="download-btn" data-format="svg">SVG</button>
+                            <button class="download-btn" data-format="pdf">PDF</button>
+                        </div>
+                        <button class="generate-btn">Generate QR Code</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <img src="assets/icons/USP-banner-1.svg" alt="Secure and Reliable">
+                    <h3>Secure and Reliable</h3>
+                    <p>From designing codes to monitoring performance</p>
+                </div>
+                <div class="feature-card">
+                    <img src="assets/icons/USP-banner-2.svg" alt="Dynamic QR Codes">
+                    <h3>Dynamic QR Codes</h3>
+                    <p>Update content linked to your QR codes without needing to reprint</p>
+                </div>
+                <div class="feature-card">
+                    <img src="assets/icons/USP-banner-3.svg" alt="Advanced Analytics">
+                    <h3>Advanced Analytics</h3>
+                    <p>Detailed analytics and insights for the QR codes you generate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Product -->
+                <div class="footer-column">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="roadmap.html">Roadmap</a></li>
+                        <li><a href="releases.html">Release Notes</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="docs.html">Documentation</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li><a href="api.html">API Reference</a></li>
+                        <li><a href="status.html">Status Page</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company -->
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="press.html">Press</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="gdpr.html">GDPR Compliance</a></li>
+                        <li><a href="security.html">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <img src="assets/images/QRFusion-Logo-Light.svg" alt="QRFusion.AI" height="24">
+                </div>
+                <p class="copyright">&copy; 2024 QRFusion.AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/qr-generator.js"></script>
+</body>
+</html>
