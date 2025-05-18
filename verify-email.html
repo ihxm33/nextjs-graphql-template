@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Email - QRFusion.AI</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/auth.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/QRFusion-Logo-Light.svg" alt="QRFusion.AI Logo">
+                    </a>
+                </div>
+                <!-- Primary Navigation -->
+                <ul class="nav-links">
+                    <li><a href="features.html" class="nav-link">Features</a></li>
+                    <li><a href="use-cases.html" class="nav-link">Use Cases</a></li>
+                    <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                    <li><a href="resources.html" class="nav-link">Resources</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <!-- Secondary Navigation -->
+                <div class="secondary-nav">
+                    <a href="login.html" class="login-btn">Login</a>
+                    <a href="signup.html" class="signup-btn">Get Started</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Verify Email Section -->
+    <section class="auth-section">
+        <div class="container">
+            <div class="auth-card">
+                <h1>Verify Your Email</h1>
+                <p class="auth-subtitle">We've sent a verification link to your email address. Please check your inbox and click the link to verify your account.</p>
+
+                <div class="verify-email-content">
+                    <div class="email-icon">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 18H4V8L12 13L20 8V18ZM12 11L4 6H20L12 11Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+
+                    <div class="verify-actions">
+                        <button id="resendButton" class="auth-submit">Resend Verification Email</button>
+                        <p class="resend-timer">You can request a new verification email in <span id="timer">60</span> seconds</p>
+                    </div>
+
+                    <div class="verify-help">
+                        <p>Didn't receive the email? Check your spam folder or contact our support team.</p>
+                    </div>
+                </div>
+
+                <p class="auth-footer">
+                    Wrong email? <a href="signup.html">Sign up again</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Product -->
+                <div class="footer-column">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="roadmap.html">Roadmap</a></li>
+                        <li><a href="releases.html">Release Notes</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="docs.html">Documentation</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li><a href="api.html">API Reference</a></li>
+                        <li><a href="status.html">Status Page</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company -->
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="press.html">Press</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="gdpr.html">GDPR Compliance</a></li>
+                        <li><a href="security.html">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <img src="assets/images/QRFusion-Logo-Light.svg" alt="QRFusion.AI" height="24">
+                </div>
+                <p class="copyright">&copy; 2024 QRFusion.AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>
