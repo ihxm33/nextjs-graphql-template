@@ -1,0 +1,17 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="120" cy="120" r="120" fill="rgba(41, 121, 255, 0.1)"/>
+    
+    <!-- Marketing Icons -->
+    <g transform="translate(60, 60)">
+        <!-- Megaphone -->
+        <path d="M100 60c0-22.1 17.9-40 40-40v80c-22.1 0-40-17.9-40-40z" fill="#2979FF"/>
+        <path d="M90 60L30 90V30l60 30z" fill="#2979FF"/>
+        <rect x="20" y="45" width="20" height="30" rx="4" fill="#2979FF"/>
+        
+        <!-- Chart -->
+        <rect x="10" y="80" width="20" height="40" rx="4" fill="#2979FF" opacity="0.8"/>
+        <rect x="40" y="60" width="20" height="60" rx="4" fill="#2979FF" opacity="0.6"/>
+        <rect x="70" y="40" width="20" height="80" rx="4" fill="#2979FF" opacity="0.4"/>
+    </g>
+</svg>
