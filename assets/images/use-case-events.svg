@@ -1,0 +1,24 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="120" cy="120" r="120" fill="rgba(41, 121, 255, 0.1)"/>
+    
+    <!-- Events Icons -->
+    <g transform="translate(60, 60)">
+        <!-- Calendar -->
+        <rect x="20" y="20" width="80" height="80" rx="8" fill="none" stroke="#2979FF" stroke-width="4"/>
+        <rect x="20" y="35" width="80" height="15" fill="#2979FF"/>
+        
+        <!-- Calendar Dots -->
+        <circle cx="40" cy="65" r="4" fill="#2979FF"/>
+        <circle cx="60" cy="65" r="4" fill="#2979FF"/>
+        <circle cx="80" cy="65" r="4" fill="#2979FF"/>
+        <circle cx="40" cy="85" r="4" fill="#2979FF"/>
+        <circle cx="60" cy="85" r="4" fill="#2979FF"/>
+        <circle cx="80" cy="85" r="4" fill="#2979FF"/>
+        
+        <!-- Ticket -->
+        <path d="M30 40l60-10M30 60l60-10M30 80l60-10" 
+              stroke="#2979FF" stroke-width="2" 
+              stroke-dasharray="4 4" opacity="0.6"/>
+    </g>
+</svg>
